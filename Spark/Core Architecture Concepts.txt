@@ -1,0 +1,4 @@
+SPARK : is a unified computing engine and a set of libraries for parallel data processing on computer clusters.
+1. Unified : Spark is designed to support a wide range of data analytics tasks, ranging from simple data loading and SQL queries to machine learning and streaming computation, over the same computing engine		
+2.Computing Engine : Spark handles loading data from storage systems and performing computation on it, not permanent storage as the end itself. Data is expensive to move so Spark focuses on performing computations over the data, no matter where it resides.		
+3. Libraries : Spark includes libraries for SQL and structured data (Spark SQL), machine learning (MLlib), stream processing (Spark Streaming and the newer Structured Streaming), and graph analytics (GraphX).

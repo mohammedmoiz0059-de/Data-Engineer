@@ -6,4 +6,4 @@ Contents
   3.Pyspark 
   4.Spark 
   5.GCP 
-  6.Datawarehouse Concepts 
+  6.Datawarehouse Concept 

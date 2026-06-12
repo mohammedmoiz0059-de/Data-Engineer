@@ -12,3 +12,6 @@
         
 <img width="877" height="698" alt="image" src="https://github.com/user-attachments/assets/4bf4b16b-245c-4e67-8c5f-55e1bfefc7c7" />
 
+## Software
+    
+<img width="1579" height="663" alt="image" src="https://github.com/user-attachments/assets/264832bd-78ab-4c22-b7a6-af34ae618e06" />

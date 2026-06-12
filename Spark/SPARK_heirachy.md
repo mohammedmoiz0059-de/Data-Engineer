@@ -2,11 +2,11 @@
 #### Driver
 
 #### Executors
-  Cores /Slots /CPU
-  Memory is divided into Storage and Working.
+    Cores /Slots /CPU
+    Memory is divided into Storage and Working.
       1.Storage - Used by persisted objects.
       2.Working - Spark workloads
-  Disks : Provides space for 
+    Disks : Provides space for 
         1. Shuffle partitions
         2. Persistent data spills
         

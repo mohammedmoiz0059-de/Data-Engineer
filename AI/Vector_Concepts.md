@@ -1,0 +1,4 @@
+- Vectors
+- Embeddings
+- Cosine Similarity
+- Vector Database (VectorDB)

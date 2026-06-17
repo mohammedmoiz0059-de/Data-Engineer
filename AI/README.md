@@ -2,7 +2,7 @@
 |:-----------|:---------:|:---------:|
 |[Artificial Intelligence (AI)](https://github.com/mohammedmoiz0059-de/Data-Engineer/blob/main/AI/ML_Basics.md)|	Field focused on creating intelligent systems that mimic human thinking and decision-making.	|Artificial Intelligence, Algorithms, Model, Compute|
 |[Machine Learning (ML)](https://github.com/mohammedmoiz0059-de/Data-Engineer/blob/main/AI/ML_Basics.md)|	Subset of AI where systems learn patterns from data instead of explicit programming.	|Machine Learning, Supervised Learning, Unsupervised Learning, Training Data, Overfitting, Synthetic Data|
-|Deep Learning|	Advanced ML using multi-layer neural networks to learn complex patterns.|	Deep Learning, Neural Networks, Transformers, Fine-Tuning|
+|[Deep Learning](https://github.com/mohammedmoiz0059-de/Data-Engineer/blob/main/AI/ML_Basics.md)|	Advanced ML using multi-layer neural networks to learn complex patterns.|	Deep Learning, Neural Networks, Transformers, Fine-Tuning|
 |Natural Language Processing (NLP)|	AI field focused on understanding and generating human language.	|NLP, Language Model, Large Language Model (LLM), Chat Model, Completion Model, Sentence Transformers, Token|
 |Generative AI (GenAI)|	AI systems that create new content such as text, images, code, audio, or video.	|Generative AI, Multimodal AI, Hallucination, Memory in LLM|
 |[Prompt Engineering](https://github.com/mohammedmoiz0059-de/Data-Engineer/blob/main/AI/Prompt%20Engineering.md)	|Designing prompts/instructions to improve LLM responses.	|Prompt, Prompt Engineering, Zero-Shot Prompting, Single-Shot Prompting, Multi-Shot Prompting|

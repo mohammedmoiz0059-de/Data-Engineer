@@ -13,3 +13,22 @@
 |Agents & AI Workflows|	Autonomous AI systems capable of reasoning, planning, and tool usage.|	LLM Agents, Chains, LangGraph|
 |Mathematical / Statistical Concepts |	Core mathematical ideas used in AI modeling and similarity calculations.	|Probabilistic Model, Vectors, Cosine Similarity|
 |Infrastructure & Hardware|	Computational resources required to train and run AI systems.|	GPU (Graphical Processing Unit), Compute|
+
+
+# LEARNING ROAD MAP
+        
+        ML Basics
+           ↓
+        NLP + Embeddings
+           ↓
+        Transformers + LLMs
+           ↓
+        Vector Databases
+           ↓
+        RAG Systems
+           ↓
+        LangChain / LangGraph
+         ↓
+        AI Agents
+           ↓
+        Production GenAI Systems

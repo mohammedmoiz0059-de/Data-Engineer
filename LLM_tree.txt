@@ -1,0 +1,184 @@
+Large Language Models (LLMs) ⭐⭐⭐⭐⭐
+- Transformer models trained on huge text/code
+│
+├── Closed / Commercial Models
+│
+│   ├── GPT
+│   │   - OpenAI model family
+│   │
+│   │   └── ChatGPT
+│   │       - Application built using GPT
+│   │
+│   ├── Claude
+│   │   - Anthropic LLM family
+│   │
+│   └── Gemini
+│       - Google LLM family
+│
+│
+└── Open / Open-weight Models
+    │
+    ├── Llama
+    │   - Meta open LLM family
+    │
+    ├── Mistral
+    │   - Efficient open LLM family
+    │
+    └── Other open models
+        - Community models
+
+
+LLM Platforms / Model Hubs ⭐⭐⭐
+- Places to access and manage models
+│
+├── Hugging Face ⭐⭐⭐
+│   - AI model ecosystem/platform
+│
+│   Provides:
+│
+│   ├── Model Hub
+│   │   - Download/use models
+│   │
+│   │   Examples:
+│   │   - Llama models
+│   │   - Mistral models
+│   │   - Embedding models
+│   │
+│   ├── Transformers Library
+│   │   - Python library to run models
+│   │
+│   ├── Datasets
+│   │   - Training/evaluation datasets
+│   │
+│   └── Inference API
+│       - Call models using API
+│
+│
+└── Ollama ⭐⭐⭐
+    - Run LLMs locally on your machine
+    │
+    Provides:
+    │
+    ├── Download models
+    │
+    ├── Run models offline
+    │
+    └── Local API endpoint
+    │
+    Examples:
+    - Run Llama locally
+    - Run Mistral locally
+
+
+GenAI Application Frameworks ⭐⭐⭐⭐⭐
+- Build applications using LLMs
+│
+├── LangChain
+│   - Framework for LLM workflows
+│
+│   Helps with:
+│   - Prompt templates
+│   - Chains
+│   - Agents
+│   - RAG pipelines
+│
+├── LlamaIndex
+│   - Connect private data with LLMs
+│
+│   Helps with:
+│   - Document loading
+│   - Indexing
+│   - Retrieval
+│
+└── Semantic Kernel
+    - Enterprise AI orchestration
+
+
+Embeddings Layer ⭐⭐⭐⭐⭐
+- Convert text into numerical vectors
+│
+├── OpenAI Embeddings
+├── Gemini Embeddings
+├── Hugging Face Embeddings
+└── Sentence Transformers
+
+
+Vector Databases ⭐⭐⭐⭐⭐
+- Store and search embeddings
+│
+├── FAISS
+│   - Local vector search library
+│
+├── ChromaDB
+│   - Local/open-source vector database
+│
+├── Pinecone
+│   - Managed vector database
+│
+├── Weaviate
+│   - Vector search platform
+│
+└── BigQuery Vector Search
+    - GCP vector search
+
+
+RAG System ⭐⭐⭐⭐⭐
+- Retrieval Augmented Generation
+│
+
+Company Data
+     │
+     ▼
+Data Pipeline
+(Python / Spark / Airflow)
+     │
+     ▼
+Chunking
+     │
+     ▼
+Embedding Model
+     │
+     ▼
+Vector Database
+     │
+     ▼
+Retriever
+     │
+     ▼
+Prompt + Context
+     │
+     ▼
+LLM
+(GPT / Claude / Gemini / Llama)
+     │
+     ▼
+Answer
+
+
+LLMOps ⭐⭐⭐
+- Production management
+│
+├── MLflow
+│   - Tracking experiments/models
+│
+├── LangSmith
+│   - Debugging LangChain apps
+│
+├── Monitoring
+│   - Cost
+│   - Latency
+│   - Quality
+│
+└── Deployment
+    │
+    ├── FastAPI
+    │   - Expose AI as REST API
+    │
+    ├── Docker
+    │   - Package application
+    │
+    └── Cloud Platforms
+        │
+        ├── Vertex AI (GCP)
+        ├── Azure AI
+        └── AWS Bedrock

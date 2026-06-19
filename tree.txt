@@ -1,0 +1,141 @@
+Artificial Intelligence (AI)
+- Making machines perform tasks requiring human intelligence
+│
+├── Traditional AI
+│   - Uses human-written rules and logic
+│
+│   └── Rule-Based Systems
+│       - Systems that follow predefined rules
+│
+│       ├── Expert Systems
+│       │   - Mimic decisions of human experts
+│       │
+│       └── Search / Logic Systems
+│           - Problem solving using rules and reasoning
+│
+│
+└── Machine Learning (ML)
+    - Machines learn patterns from data instead of explicit programming
+    │
+    ├────────────────────────────────────────────
+    │
+    ├── Learning Approaches (HOW models learn)
+    │   │
+    │   ├── Supervised Learning
+    │   │   - Learns from labelled examples
+    │   │
+    │   │   ├── Regression
+    │   │   │   - Predict continuous values
+    │   │   │
+    │   │   └── Classification
+    │   │       - Predict categories/classes
+    │   │
+    │   ├── Unsupervised Learning
+    │   │   - Finds hidden patterns without labels
+    │   │
+    │   │   ├── Clustering
+    │   │   │   - Groups similar data
+    │   │   │
+    │   │   └── Dimensionality Reduction
+    │   │       - Simplifies data while preserving information
+    │   │
+    │   ├── Semi-Supervised Learning
+    │   │   - Uses small labelled + large unlabelled data
+    │   │
+    │   ├── Self-Supervised Learning ⭐
+    │   │   - Creates learning signals from data itself
+    │   │
+    │   │   └── Used in LLM Pre-training
+    │   │       - Predicting tokens from huge text datasets
+    │   │
+    │   └── Reinforcement Learning
+    │       - Learns through rewards and penalties
+    │
+    │       └── RLHF
+    │           - Human feedback improves LLM responses
+    │
+    │
+    └── Model Families / Architectures
+        - Techniques used to learn patterns
+        │
+        ├── Traditional ML Models
+        │   - Statistical / mathematical models
+        │
+        │   ├── Linear Regression
+        │   │   - Predict numeric values
+        │   │
+        │   ├── Logistic Regression
+        │   │   - Predict probability/classes
+        │   │
+        │   ├── Decision Tree
+        │   │   - Tree-like decision rules
+        │   │
+        │   ├── Random Forest
+        │   │   - Collection of decision trees
+        │   │
+        │   └── KNN
+        │       - Prediction based on nearest examples
+        │
+        │
+        └── Deep Learning
+            - ML using multi-layer neural networks
+            │
+            └── Neural Networks
+                - Connected artificial neurons learning patterns
+                │
+                ├── CNN
+                │   - Learns spatial patterns
+                │
+                │   └── Used for:
+                │       Images / Computer Vision
+                │
+                ├── RNN / LSTM
+                │   - Learns sequential patterns
+                │
+                │   └── Used for:
+                │       Time series / sequences
+                │
+                ├── GAN ⭐
+                │   - Generator vs Discriminator networks
+                │
+                │   └── Generative AI
+                │       - Image/data generation
+                │
+                └── Transformer ⭐⭐⭐
+                    - Neural network based on Attention mechanism
+                    │
+                    ├── Encoder Models
+                    │   - Understanding tasks
+                    │
+                    │   Example:
+                    │   BERT
+                    │
+                    └── Decoder Models
+                        - Text generation tasks
+                        │
+                        └── Large Language Models (LLMs) ⭐⭐⭐
+                            - Models trained on massive text/code
+                            │
+                            ├── GPT
+                            │   └── ChatGPT
+                            │
+                            ├── Claude
+                            │
+                            ├── Gemini
+                            │
+                            ├── Llama
+                            │
+                            └── Mistral
+                            │
+                            ▼
+                      GenAI Applications
+                            │
+                            ├── Chatbots
+                            ├── Coding Assistants
+                            ├── Document Q&A
+                            └── Agents
+                            │
+                            ▼
+                      RAG Systems ⭐⭐⭐
+                      Retrieval Augmented Generation
+                      (LLM + External Data)

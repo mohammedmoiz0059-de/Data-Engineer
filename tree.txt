@@ -55,7 +55,7 @@ Artificial Intelligence (AI)
     │           - Human feedback improves LLM responses
     │
     │
-    └── Model Families / Architectures
+    └── Model Families / Architectures / Algorithms
         - Techniques used to learn patterns
         │
         ├── Traditional ML Models

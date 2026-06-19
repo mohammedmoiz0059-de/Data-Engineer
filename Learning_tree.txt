@@ -1,0 +1,74 @@
+Artificial Intelligence (AI) 🟡
+- Know definition and hierarchy
+└── Machine Learning (ML) 🟡
+    - Understand ML lifecycle
+    ├── Self-Supervised Learning ⭐⭐⭐ 🟢
+    │   - IMPORTANT for LLMs
+    │   Learn:
+    │   - Next token prediction
+    │   - Pre-training
+    │   - Language modeling
+    │
+    └── Reinforcement Learning 🟡
+        │
+        └── RLHF 🟢
+            - Important for ChatGPT alignment
+
+
+    Model Families / Architectures
+   Deep Learning 🟢
+    - Understand properly
+    └── Neural Networks 🟢
+        Learn:
+        - Neurons
+        - Layers
+        - Weights
+        - Activation
+        - Training concept
+        └── Transformer ⭐⭐⭐⭐⭐ 🟢🟢🟢
+            MUST LEARN
+            │
+            Learn:
+            - Tokens
+            - Embeddings
+            - Attention
+            - Context window
+            - Parameters
+            │
+            └── LLM ⭐⭐⭐⭐⭐ 🟢🟢🟢
+                MUST LEARN
+                │
+                Learn:
+                - GPT
+                - Claude
+                - Gemini
+                - Prompting
+                - Temperature
+                - Hallucination
+                - Fine tuning basics
+                │
+                ▼
+
+          GenAI Applications ⭐⭐⭐⭐⭐ 🟢
+                │
+                Learn:
+                - API calls
+                - LangChain
+                - LlamaIndex
+                - Agents
+                │
+                ▼
+
+          RAG Systems ⭐⭐⭐⭐⭐ 🟢🟢🟢
+          
+          YOUR MAIN AREA
+
+          Learn deeply:
+          - Document loading
+          - Chunking
+          - Embeddings
+          - Vector DB
+          - Similarity search
+          - Retrieval
+          - Prompt + Context
+          - LLM response

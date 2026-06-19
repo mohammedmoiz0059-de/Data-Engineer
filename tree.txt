@@ -1,141 +1,213 @@
-Artificial Intelligence (AI)
-- Making machines perform tasks requiring human intelligence
+Artificial Intelligence (AI) 🌐
+- Machines performing tasks that require human intelligence
 │
 ├── Traditional AI
-│   - Uses human-written rules and logic
+│   - Uses human-created rules, logic and knowledge
 │
 │   └── Rule-Based Systems
-│       - Systems that follow predefined rules
+│       - Systems following predefined IF/ELSE rules
 │
 │       ├── Expert Systems
-│       │   - Mimic decisions of human experts
+│       │   - Mimics decisions of human experts
 │       │
 │       └── Search / Logic Systems
-│           - Problem solving using rules and reasoning
+│           - Problem solving using reasoning algorithms
+│
+│
+├── AI Domains / Application Areas
+│   - Problems AI tries to solve
+│
+│   ├── Natural Language Processing (NLP) ⭐⭐⭐
+│   │   - Understanding and generating human language
+│   │
+│   │   ├── Traditional NLP
+│   │   │   - Rule/statistical language processing
+│   │   │
+│   │   │   ├── Tokenization
+│   │   │   │   - Breaking text into smaller units
+│   │   │
+│   │   │   ├── Stemming / Lemmatization
+│   │   │   │   - Reducing words to base form
+│   │   │
+│   │   │   └── Named Entity Recognition (NER)
+│   │   │       - Finding entities in text
+│   │   │
+│   │   └── Modern NLP ⭐⭐⭐
+│   │       - Uses Deep Learning models
+│   │
+│   │       └── Transformers
+│   │           - Foundation of modern LLMs
+│   │
+│   ├── Computer Vision
+│   │   - Understanding images/videos
+│   │
+│   ├── Speech AI
+│   │   - Speech recognition and generation
+│   │
+│   └── Robotics
+│       - AI interacting with physical world
 │
 │
 └── Machine Learning (ML)
-    - Machines learn patterns from data instead of explicit programming
+    - Systems learn patterns from data
     │
-    ├────────────────────────────────────────────
     │
     ├── Learning Approaches (HOW models learn)
-    │   │
-    │   ├── Supervised Learning
-    │   │   - Learns from labelled examples
-    │   │
-    │   │   ├── Regression
-    │   │   │   - Predict continuous values
-    │   │   │
-    │   │   └── Classification
-    │   │       - Predict categories/classes
-    │   │
-    │   ├── Unsupervised Learning
-    │   │   - Finds hidden patterns without labels
-    │   │
-    │   │   ├── Clustering
-    │   │   │   - Groups similar data
-    │   │   │
-    │   │   └── Dimensionality Reduction
-    │   │       - Simplifies data while preserving information
-    │   │
-    │   ├── Semi-Supervised Learning
-    │   │   - Uses small labelled + large unlabelled data
-    │   │
-    │   ├── Self-Supervised Learning ⭐
-    │   │   - Creates learning signals from data itself
-    │   │
-    │   │   └── Used in LLM Pre-training
-    │   │       - Predicting tokens from huge text datasets
-    │   │
-    │   └── Reinforcement Learning
-    │       - Learns through rewards and penalties
-    │
-    │       └── RLHF
-    │           - Human feedback improves LLM responses
     │
     │
-    └── Model Families / Architectures / Algorithms
-        - Techniques used to learn patterns
+    ├── Supervised Learning
+    │   │   - Learns from labelled data
+    │   │
+    │   ├── Regression
+    │   │   - Predict numeric values
+    │   │
+    │   └── Classification
+    │       - Predict categories/classes
+    │
+    ├── Unsupervised Learning
+    │   - Learns without labelled answers
+    │
+    │   ├── Clustering
+    │   │   - Groups similar data
+    │   │
+    │   └── Dimensionality Reduction
+    │       - Reduces unnecessary features
+    │
+    ├── Semi-Supervised Learning
+    │   - Mix of labelled and unlabelled data
+    │
+    ├── Self-Supervised Learning ⭐⭐⭐
+    │   - Creates learning signals from data itself
+    │
+    │   └── Used heavily for:
+    │
+    │       LLM Pre-training
+    │       - Predicting tokens from huge text
+    │
+    └── Reinforcement Learning
+        - Learns through rewards
         │
-        ├── Traditional ML Models
-        │   - Statistical / mathematical models
+        └── RLHF
+            - Human feedback improves LLM behaviour
+
+
+Machine Learning Model Families
+(WHAT architecture/model is used)
+│
+├── Traditional ML Models
+│
+│   ├── Linear Regression
+│   │   - Numeric prediction
+│
+│   ├── Logistic Regression
+│   │   - Classification
+│
+│   ├── Decision Tree
+│   │   - Tree-based decisions
+│
+│   ├── Random Forest
+│   │   - Multiple decision trees
+│
+│   └── KNN
+│       - Similarity-based prediction
+│
+│
+└── Deep Learning ⭐⭐⭐
+    - ML using multi-layer neural networks
+    │
+    └── Neural Networks
+        - Artificial neurons learning patterns
         │
-        │   ├── Linear Regression
-        │   │   - Predict numeric values
-        │   │
-        │   ├── Logistic Regression
-        │   │   - Predict probability/classes
-        │   │
-        │   ├── Decision Tree
-        │   │   - Tree-like decision rules
-        │   │
-        │   ├── Random Forest
-        │   │   - Collection of decision trees
-        │   │
-        │   └── KNN
-        │       - Prediction based on nearest examples
+        ├── CNN
+        │   - Learns spatial patterns
         │
+        │   Used for:
+        │   Computer Vision
         │
-        └── Deep Learning
-            - ML using multi-layer neural networks
+        ├── RNN / LSTM
+        │   - Learns sequence patterns
+        │
+        │   Used for:
+        │   Older NLP / Time Series
+        │
+        ├── GAN
+        │   - Generator vs Discriminator
+        │
+        │   Used for:
+        │   Generative AI images/data
+        │
+        └── Transformer ⭐⭐⭐⭐⭐
+            - Neural network using Attention mechanism
             │
-            └── Neural Networks
-                - Connected artificial neurons learning patterns
+            ├── Encoder Models
+            │   - Understand information
+            │
+            │   Example:
+            │   BERT
+            │
+            └── Decoder Models
+                - Generate information
                 │
-                ├── CNN
-                │   - Learns spatial patterns
-                │
-                │   └── Used for:
-                │       Images / Computer Vision
-                │
-                ├── RNN / LSTM
-                │   - Learns sequential patterns
-                │
-                │   └── Used for:
-                │       Time series / sequences
-                │
-                ├── GAN ⭐
-                │   - Generator vs Discriminator networks
-                │
-                │   └── Generative AI
-                │       - Image/data generation
-                │
-                └── Transformer ⭐⭐⭐
-                    - Neural network based on Attention mechanism
+                └── Large Language Models (LLMs) ⭐⭐⭐⭐⭐
+                    - Models trained on huge text/code
                     │
-                    ├── Encoder Models
-                    │   - Understanding tasks
+                    ├── GPT
+                    │   └── ChatGPT
                     │
-                    │   Example:
-                    │   BERT
-                    │
-                    └── Decoder Models
-                        - Text generation tasks
-                        │
-                        └── Large Language Models (LLMs) ⭐⭐⭐
-                            - Models trained on massive text/code
-                            │
-                            ├── GPT
-                            │   └── ChatGPT
-                            │
-                            ├── Claude
-                            │
-                            ├── Gemini
-                            │
-                            ├── Llama
-                            │
-                            └── Mistral
-                            │
-                            ▼
-                      GenAI Applications
-                            │
-                            ├── Chatbots
-                            ├── Coding Assistants
-                            ├── Document Q&A
-                            └── Agents
-                            │
-                            ▼
-                      RAG Systems ⭐⭐⭐
-                      Retrieval Augmented Generation
-                      (LLM + External Data)
+                    ├── Claude
+                    ├── Gemini
+                    ├── Llama
+                    └── Mistral
+
+
+Generative AI ⭐⭐⭐
+- AI that creates new content
+│
+├── Text Generation
+│   └── LLMs
+│
+├── Image Generation
+│   ├── Diffusion Models
+│   └── GANs
+│
+├── Code Generation
+│
+└── Audio / Video Generation
+
+
+GenAI Engineering ⭐⭐⭐⭐⭐
+(Your Data Engineer target area)
+│
+├── Prompt Engineering
+│   - Instructions given to LLM
+│
+├── Embeddings
+│   - Convert text into vectors
+│
+├── Vector Databases
+│   - Store/search embeddings
+│
+├── RAG (Retrieval Augmented Generation) ⭐⭐⭐⭐⭐
+│   - LLM + External company data
+│
+│   Flow:
+│
+│   Documents
+│      ↓
+│   Chunking
+│      ↓
+│   Embeddings
+│      ↓
+│   Vector DB
+│      ↓
+│   Retriever
+│      ↓
+│   LLM
+│      ↓
+│   Answer
+│
+├── Agents
+│   - LLMs using tools/actions
+│
+└── LLMOps
+    - Deploy, monitor and manage LLM systems

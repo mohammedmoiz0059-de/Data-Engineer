@@ -33,18 +33,18 @@
            ↓
         Production GenAI Systems
 
-
-Vector — address in meaning-space (list of numbers)
-Embedding — converting text to vector
-Cosine similarity — angle between vectors (0 to 1)
-Semantic search — search by meaning not words
-Vector database — stores vectors, fast ANN search
-HNSW — algorithm inside vector DB, O(log n)
-RAG — retrieve then generate, auditable answers
-Temperature — creativity dial, 0 = precise, 1 = creative
-System prompt — rules given to LLM before conversation
-Zero-shot — no examples given
-Few-shot — 2 to 5 examples given
-Chain of thought — think step by step
-Prompt injection — malicious override of system prompt
-Distributional hypothesis — same context = similar meaning
+ 
+Vector — address in meaning-space (list of numbers)   
+Embedding — converting text to vector   
+Cosine similarity — angle between vectors (0 to 1)   
+Semantic search — search by meaning not words   
+Vector database — stores vectors, fast ANN search   
+HNSW — algorithm inside vector DB, O(log n)   
+RAG — retrieve then generate, auditable answers  
+Temperature — creativity dial, 0 = precise, 1 = creative  
+System prompt — rules given to LLM before conversation   
+Zero-shot — no examples given   
+Few-shot — 2 to 5 examples given  
+Chain of thought — think step by step  
+Prompt injection — malicious override of system prompt   
+Distributional hypothesis — same context = similar meaning   

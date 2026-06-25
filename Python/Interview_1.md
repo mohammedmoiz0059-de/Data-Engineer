@@ -67,3 +67,50 @@ count_by_status(jobs)
 ```
 #### Same above problem with Libraries
 ```python 
+
+
+```
+#### You are reading a raw CSV file from GCS. Each row comes in as a messy string. Clean it and extract the fields into a dictionary.
+```python
+aw_rows = [
+    "  101 , John Doe , john.doe@email.com , NEW YORK  ",
+    "  102 , Jane Smith , jane@email.com , los angeles  ",
+]
+
+
+def parse_row(raw_row):
+    splited = raw_row.split(",")
+    parsed = {}
+    parsed["id"] = splited[0].strip()
+    parsed["name"] = splited[1].strip()
+    parsed["email"] = splited[2].strip()
+    parsed["city"] = splited[3].strip().title()
+    return parsed
+
+
+for row in raw_rows:
+    result = parse_row(row)
+    print(result)
+```
+
+#### Using List Comp
+
+```python
+raw_rows = [
+    "  101 , John Doe , john.doe@email.com , NEW YORK  ",
+    "  102 , Jane Smith , jane@email.com , los angeles  ",
+]
+
+def parse_row(raw_row):
+    fields = [f.strip() for f in raw_row.split(",")]
+    return {
+        "id"    : fields[0],
+        "name"  : fields[1],
+        "email" : fields[2],
+        "city"  : fields[3].title()
+    }
+
+all_rows = [parse_row(row) for row in raw_rows]
+
+print(all_rows)
+```

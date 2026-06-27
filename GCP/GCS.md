@@ -1,0 +1,3 @@
+- GCS is an object storage service on GCP. 
+- Data is stored inside buckets, and each bucket is region-locked — which matters in banking for two reasons: latency, and regulatory compliance like data residency. 
+- Bucket names are globally unique across all of GCP. The actual files inside a bucket are called objects."
